@@ -50,7 +50,8 @@
         <div class="col-md">Iago Sparrow</div>
     </div>
     Birds names are in a line. After we decrease the size of the screen bird names will break and they will appear in new lines.
-    <div class="container">
+  </div>
+    <div>
       
       <img src="eagle.jpg" class="img-fluid" alt="Eagle">
       <img src="lovebirds.jpg" class="img-fluid" alt="Love Birds">
@@ -58,7 +59,7 @@
       
     </div>
 
-    <div class="container">
+    <div>
       
       <img src="eagle.jpg" class="img-thumbnail" alt="Eagle">
       <img src="lovebirds.jpg" class="img-thumbnail" alt="Love Birds">
@@ -68,7 +69,7 @@
 
     <table class="table table-hover table-bordered caption-top table-responsive table-sm table-info">
       <caption>Table containing list of Birds, Lake and Athletes</caption>
-      <thead class="table-light">
+      <thead class="table-active">
         <tr>
           <th scope="col">Letter</th>
           <th scope="col">Bird</th>
@@ -77,24 +78,42 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class="table-danger">
           <th scope="row">S</th>
           <td>Swan</td>
           <td>Somasila Reservoir</td>
           <td>Suresh Raina</td>
         </tr>
-        <tr>
+        <tr class="table-success">
           <th scope="row">A</th>
           <td>Angry Bird</td>
           <td>Atlantic ocean</td>
           <td>Afridi</td>
         </tr>
-        <tr>
+        <tr class="table-warning">
           <th scope="row">H</th>
           <td>Hen</td>
           <td>Haweswater</td>
           <td>Hetmyer</td>
-        </tr>
+          </tr>
+          <tr class="table-secoondary">
+            <th scope="row">I</th>
+            <td>Ibisbill</td>
+            <td>Izabal</td>
+            <td>Ishan Kishan</td>
+            </tr>
+            <tr class="table-primary">
+              <th scope="row">R</th>
+              <td>Robin-chat</td>
+              <td>Ranjit Sagar Dam Lake</td>
+              <td>Rohit Sharma</td>
+              </tr>
+            <tr class="table-info">
+                <th scope="row">I</th>
+                <td>Iago Sparrow</td>
+                <td>Irving Lake</td>
+                <td>Ishanth Sharma</td>
+            </tr>
       </tbody>
     </table>
   </div>
@@ -140,12 +159,12 @@
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="email" placeholder="Enter your email address:" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   <div class="form-group">
     <label for="bird" class="form-label">Bird</label>
-    <input type="text" class="form-control" for="bird">
+    <input type="text" placeholder="Enter bird name:" class="form-control" for="bird">
     <div id="birdChoice" class="form-text">Enter your bird.</div>
   </div>
   <div class="form-check">
